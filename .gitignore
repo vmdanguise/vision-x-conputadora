@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb.bak
+
+# Artefactos de entrenamiento (se regeneran corriendo el pipeline)
+runs/
+resultados/
+yolov5nu.pt
+*.engine
+
+# Bibliografia con derechos de autor: se cita en el README, no se versiona
+*.pdf
+!informe/informe_final.pdf
+
+# Material institucional
+*.docx
+
+# Sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store
