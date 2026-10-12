@@ -1,0 +1,4 @@
+estrategia,freeze,params_entrenables_M,pct_entrenable,epocas,min_total,seg_por_epoca,mem_pico_GB,mAP50_val,mAP50_95_val,mejor_epoca
+completo,0,2.636,100.0,14,7.4,31.5,0.38,0.7966,0.4048,8
+backbone,10,1.589,60.3,25,10.7,25.7,0.3,0.8141,0.4718,24
+solo_cabeza,24,0.878,33.3,25,9.7,23.3,0.26,0.7338,0.3639,22

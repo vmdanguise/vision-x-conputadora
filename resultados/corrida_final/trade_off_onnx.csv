@@ -1,0 +1,10 @@
+metrica,valor
+peso_pt_MB,5.483202
+peso_onnx_MB,10.645079
+fps_cpu_pt,28.56721356360716
+fps_cpu_onnx,35.35770314664122
+map50_pt_sub,0.8462294936180115
+map50_onnx_sub,0.8462294936180115
+delta_map50,0.0
+n_imgs_comparacion,100.0
+map50_pt_test_completo,0.7619941830635071

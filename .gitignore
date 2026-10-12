@@ -11,9 +11,11 @@ venv/
 
 # Artefactos de entrenamiento (se regeneran corriendo el pipeline)
 runs/
-resultados/
 yolov5nu.pt
 *.engine
+# Los pesos pesan ~16 MB y se regeneran; los CSV de resultados si se versionan
+*.pt
+*.onnx
 
 # Bibliografia con derechos de autor: se cita en el README, no se versiona
 *.pdf
