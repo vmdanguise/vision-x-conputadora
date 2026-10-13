@@ -19,7 +19,7 @@ yolov5nu.pt
 
 # Bibliografia con derechos de autor: se cita en el README, no se versiona
 *.pdf
-!informe/informe_final.pdf
+!informe/informe_tp_final_vision_computadora.pdf
 
 # Material institucional
 *.docx
