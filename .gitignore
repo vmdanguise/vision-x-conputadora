@@ -28,3 +28,6 @@ yolov5nu.pt
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# HTML intermedio que genera informe/build_pdf.py
+informe/*.html

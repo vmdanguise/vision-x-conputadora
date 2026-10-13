@@ -16,7 +16,7 @@ Electiva: Visión por Computadora · Profesor: Ing. Marcelo Bozunovsky
 | **Hallazgo principal** | Congelar el *backbone* (`freeze=10`) mejora el mAP **+16.6 %** |
 | **Entorno** | Google Colab, GPU T4 (tier gratuito) |
 
-📄 **[Informe completo (PDF, 24 páginas)](informe/informe_final.pdf)** · [versión Markdown](informe/informe_final.md)
+📄 **[Informe completo (PDF, 24 páginas)](informe/informe_tp_final_vision_computadora.pdf)** · [versión Markdown](informe/informe_tp_final_vision_computadora.md)
 
 ---
 
@@ -224,8 +224,8 @@ datos no lo vuelve único.**
 ├── src/
 │   └── deteccion_piletas.py           # Mismo pipeline como script
 ├── informe/
-│   ├── informe_final.pdf              # Informe de 24 páginas (entregable)
-│   ├── informe_final.md               # Fuente en Markdown
+│   ├── informe_tp_final_vision_computadora.pdf              # Informe de 24 páginas (entregable)
+│   ├── informe_tp_final_vision_computadora.md               # Fuente en Markdown
 │   ├── build_pdf.py                   # Genera el PDF (Chrome headless)
 │   └── img/                           # 7 figuras del informe
 ├── docs/

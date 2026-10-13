@@ -1,4 +1,4 @@
-"""Convierte informe_final.md a HTML paginado y luego a PDF con Chrome headless."""
+"""Convierte informe_tp_final_vision_computadora.md a HTML paginado y luego a PDF con Chrome headless."""
 import base64
 import mimetypes
 import re
@@ -8,9 +8,9 @@ from pathlib import Path
 import markdown
 
 BASE = Path(__file__).parent
-MD = BASE / "informe_final.md"
-HTML = BASE / "informe_final.html"
-PDF = BASE / "informe_final.pdf"
+MD = BASE / "informe_tp_final_vision_computadora.md"
+HTML = BASE / "informe_tp_final_vision_computadora.html"
+PDF = BASE / "informe_tp_final_vision_computadora.pdf"
 CHROME = Path(r"C:\Program Files\Google\Chrome\Application\chrome.exe")
 
 CSS = """
