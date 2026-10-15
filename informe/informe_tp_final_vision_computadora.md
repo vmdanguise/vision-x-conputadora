@@ -105,6 +105,8 @@ Con ~2.600 imágenes de entrenamiento, un modelo grande sobreajustaría: la elec
 
 Todo detector YOLO moderno se organiza en tres bloques: el **backbone** extrae características jerárquicas (bordes → texturas → formas → objetos); el **neck** fusiona información entre escalas (PANet + SPPF); la **head** produce las predicciones en **tres escalas** simultáneas —mapas de 40×40, 20×20 y 10×10 para una entrada de 320 px—.
 
+![Diagrama de la arquitectura YOLOv5: backbone, neck y head](img/arquitectura_yolov5.png)
+
 La detección multiescala es lo que permite encontrar piletas pequeñas: la escala de 40×40 aporta la resolución espacial necesaria, mientras la de 10×10 aporta contexto semántico amplio.
 
 ### 4.2 Hiperparámetros utilizados
